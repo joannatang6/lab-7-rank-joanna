@@ -10,3 +10,18 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 This is Joanna's first message in the document.
+
+Collaborator:
+- Load tidyverse
+- Read in the kermit data as "kermit"
+- make some side-by-side histograms of the Score.pre for all respondents, separated by the Gender column
+
+```{r}
+library(tidyverse)
+
+kermit <- read_csv("kermit.csv")
+
+kermit_hist
+
+```
+
